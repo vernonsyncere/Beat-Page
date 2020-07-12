@@ -1,4 +1,5 @@
 #contact{
+    max-width: 100%;
     background-image: url("s1.jpg");
     background-repeat: no-repeat;
     opacity: .90;
@@ -63,12 +64,16 @@
     width: 200px;
 }}
 
- .contact-box{
+@media(max-width: 320px){.contact-section form{
+    width: 140px;
+}}
+
+.contact-box{
      display: block;
      margin-top: 20px;
  }
 
- .contact-section label{
+.contact-section label{
     display: inline-block;
     box-shadow:0px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     color:#7CFC00;
@@ -93,7 +98,7 @@
      box-shadow:0px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
  }
 
- @media(max-width: 470px){.contact-box input{
+@media(max-width: 470px){.contact-box input{
     margin-left: 50px;
     width: 175px;
     
@@ -104,12 +109,18 @@
     
 }}
 
- .name-box input{
+@media(max-width: 320px){.contact-box input{
+    margin-left: 0px;
+    width: 135px;
+    
+}}
+
+.name-box input{
      margin-left: 21px;
      width: 210px;
  }
 
- @media(max-width: 470px){.name-box input{
+@media(max-width: 470px){.name-box input{
     margin-left: 50px;
     width: 175px;
     }}
@@ -118,23 +129,33 @@
     margin-left: 20px;
 }}
 
- #contact textarea{
-     margin-top: 20px;
-     border-radius: 7px;
-     box-shadow:0px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
- }
+@media(max-width: 320px){.name-box input{
+    margin-left: 0px;
+    width: 135px;
+}}
 
- @media(max-width: 470px){#contact textarea{
+.contact-section textarea{
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow:0px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+} 
+
+@media(max-width: 470px){.contact-section textarea{
      width: 175px;
      margin-left: 50px;
      margin-top: 15px;
  }}
 
- @media(max-width: 380px){#contact textarea{
+ @media(max-width: 380px){.contact-section textarea{
     margin-left: 20px;
 }}
 
- @media(max-width: 470px){#contact .message-1 {
+@media(max-width: 320px){.contact-section textarea{
+    margin-left: 0px;
+    width: 135px;
+}}
+
+ @media(max-width: 470px){.contact-section .message-1 {
     display:none;
 }}
 
@@ -173,3 +194,8 @@
  @media(max-width: 380px) {#contact button{
     margin-left: 75px; 
  }}
+
+  @media(max-width: 320px) {#contact button{
+    margin-left: 45px; 
+    
+ }} 

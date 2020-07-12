@@ -11,7 +11,7 @@
     min-height: 230px;
     background-color: white;
     display: grid;
-    grid-template-columns: 60% 20% 20%;
+    grid-template-columns: 55% 20% 25%;
     box-shadow: 0px 4px 30px rgba(0,0,0,0.19);
 }
 
@@ -85,6 +85,7 @@
     font-size: 1rem; 
 }}
 
+
 .options-amount a {
     text-decoration: line-through;
 }
@@ -124,6 +125,11 @@
     width: 7em;
 }}
 
+@media(max-width: 350px){.discount{
+    font-size: 1rem;
+    width: 7em;
+}} 
+
 .discount-button{
     font-size: 1.25rem;
     vertical-align: top;
@@ -136,6 +142,12 @@
  @media(max-width: 545px){.discount-button{
     display: block;
     font-size: 1.25rem;
+    margin-top: 10px; 
+}}
+
+@media(max-width: 320px){.discount-button{
+    display: block;
+    font-size: 1rem;
     margin-top: 10px; 
 }}
 
@@ -161,6 +173,11 @@
 
  @media(max-width: 545px){.buy button{
     font-size: 1.25em;
+    margin-top: 0px;
+}}
+
+@media(max-width: 330px){.buy button{
+    font-size: 1em;
     margin-top: 0px;
 }}
 
