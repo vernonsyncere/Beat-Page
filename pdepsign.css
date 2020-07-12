@@ -2,7 +2,6 @@
     padding: 20px;
 }
 
-
  .sign-up-list p {
     font-family: 'Oxygen', sans-serif;
     font-size: 2.5rem;
@@ -22,13 +21,12 @@
     font-size: 1.25rem; 
 }}
 
-
 .mail {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
-
 }
+
 @media (max-width: 375px) {.mail{
     font-size: 1em;
     margin-left: 5%;
@@ -48,7 +46,6 @@
     font-size: 1.5em;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
-    
 }
 
 @media (max-width: 850px) {.mail input {
@@ -56,15 +53,12 @@
 }}
 
 @media (max-width: 695px) {.mail input {
-    font-size: 1rem; 
-    
+    font-size: 1rem;    
 }}
-
 
  @media (max-width: 300px) {.mail input {
    text-align: center;
-   margin-left: 5em;
-    
+   margin-left: 5em;  
 }} 
 
 .mail button {
@@ -86,15 +80,11 @@
 @media (max-width: 375px) {.mail button {
     font-size: 1rem;
     display: block;
-    
     margin-top: 1em;
     margin-left: 7em;
-
 }}
 
 @media (max-width: 320px) {.mail button {
-    
     margin-left: 5em; 
-    
 }} 
 
