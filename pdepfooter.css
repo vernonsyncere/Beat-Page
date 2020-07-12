@@ -1,0 +1,15 @@
+.footer{
+    background-image: url("background.jpg");
+    height: 100px;
+    
+}
+.footer p {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+@media(max-width: 610px){.footer p{
+    font-size: .875rem;
+}}
+

@@ -1,0 +1,100 @@
+#sign-up-list {
+    padding: 20px;
+}
+
+
+ .sign-up-list p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+} 
+
+@media (max-width: 850px) {.sign-up-list p {
+    font-size: 2rem;
+}} 
+
+@media (max-width: 695px) {.sign-up-list p {
+    font-size: 1.5rem;  
+}}
+
+@media (max-width: 545px) {.sign-up-list p {
+    font-size: 1.25rem; 
+}}
+
+
+.mail {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+@media (max-width: 375px) {.mail{
+    font-size: 1em;
+    margin-left: 5%;
+}}
+
+@media (max-width: 300px) {.mail{
+    text-align: start;
+    margin-left: 0px;
+}}
+
+.mail input {
+    height: 2em;
+    text-align: center;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    
+}
+
+@media (max-width: 850px) {.mail input {
+    height: 1.5em;
+}}
+
+@media (max-width: 695px) {.mail input {
+    font-size: 1rem; 
+    
+}}
+
+
+ @media (max-width: 300px) {.mail input {
+   text-align: center;
+   margin-left: 5em;
+    
+}} 
+
+.mail button {
+    height: 2em;
+    border-radius: 4px;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+}
+
+@media (max-width: 850px) {.mail button {
+    height: 1.5em;
+}}
+
+@media (max-width: 695px) {.mail button {
+    font-size: 1rem;
+}}
+
+@media (max-width: 375px) {.mail button {
+    font-size: 1rem;
+    display: block;
+    
+    margin-top: 1em;
+    margin-left: 7em;
+
+}}
+
+@media (max-width: 320px) {.mail button {
+    
+    margin-left: 5em; 
+    
+}} 
+

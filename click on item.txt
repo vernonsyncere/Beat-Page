@@ -1,0 +1,48 @@
+click on item
+top right has close box X which closes box
+a box appears with cover art image
+title
+add to cart: $price ( if already in cart instead of price "in cart" button does not work0
+ 
+By popular demand, MG The Future drops his first one shot kit! Each sound has been crafted and curated 
+to help you make vibe filled compositions. 
+Categories include Bass, Brass, Flute, Guitar, Keys, Pluck, Synth & Vox. (also include equipment/software used)
+Use these with FL Sample, Ableton Simpler, Studio One Sample One, TAL-Sample, & More.
+
+64 ONE SHOTS INCLUDED 16 Bit WAV / Mono
+
+
+when a item is added to the cart and while an item remains in the cart 
+a section in between the header and mailing list appears
+in this section the shopping cart is displayed with 
+"Your cart"                                               Qty         Price
+-------- "Title"                                           1(always)  $29.99(cross out)
+-------- "File download"                                              $19.99
+-------- "Delete(a link to remove from shoppinc cart)
+
+(each item will go under the previous item before the discount code)
+
+Discount code:
+input box [button]
+
+                                                            SubTotal $19.99  
+                                                            [checkout button]   (takes you to check out page)
+
+check out page has "Produce Department-checkout         
+                                              t
+Info and shipping h2                          t
+form                                          t            box wcover art tile qty price subtotal discount total
+customer Info                                 t
+email address
+
+join mailing list switch
+
+First name
+
+Last name
+
+Notes
+
+
+Add a contact section
+add a review section
