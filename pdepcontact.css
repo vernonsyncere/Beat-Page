@@ -6,7 +6,6 @@
     display: grid;
     justify-content: center;
     outline: none;
-
 }
 
 .contact-header{
@@ -26,8 +25,6 @@
     font-size: 5.5rem;
 }}
 
-
-
 @media(max-width: 720px){.contact-header {
     font-size: 4.55rem;
 }}
@@ -44,11 +41,11 @@
     font-size: 2rem;
 }}
 
-
 .contact-section{
     outline: none;
     margin-top: 30px;
 }
+
 .contact-section form {
     border: 3px solid #DCDCDC;
     border-radius: 5px;
@@ -68,15 +65,8 @@
 
  .contact-box{
      display: block;
-     /* width: 400px; */
      margin-top: 20px;
-     /* padding: 20px; */
  }
-
- /* @media (max-width: 375px){.contact-box{
-   
-    width: 275px;
-}} */
 
  .contact-section label{
     display: inline-block;
@@ -93,8 +83,6 @@
     box-shadow: none;
     margin-bottom: 15px;
 }}
-
-
 
  .contact-box input{
      width: 210px;
@@ -128,10 +116,8 @@
 
 @media(max-width: 380px){.name-box input{
     margin-left: 20px;
-    
 }}
 
- 
  #contact textarea{
      margin-top: 20px;
      border-radius: 7px;
@@ -175,15 +161,13 @@
      box-shadow:0px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
      color: #7CFC00;
      padding:5px;
-     display: block;
-    
+     display: block; 
  }
 
  @media(max-width: 470px) {#contact button{
     margin-left: 110px;
     margin-top: 50px;
-    font-size: 18px;
-    
+    font-size: 18px;  
  }}
 
  @media(max-width: 380px) {#contact button{

@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr; 
+    grid-gap: 10px 20px;
+    
+
+}
+
+.box1{
+    height: 50px;
+    background-color: teal;
+    margin: 0;
+    padding: 0;
+}
+
+.box2{
+    height: 50px;
+    background-color: tomato;
+    margin: 0;
+    padding: 0;
+}
+
+.box3{
+    height: 50px;
+    background-color: gold; 
+    margin: 0;
+    padding: 0;
+}
