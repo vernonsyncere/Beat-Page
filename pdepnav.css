@@ -14,10 +14,13 @@
 
 .nav-box{
     display: none;
+    position: relative;
 }
 
 @media(max-width: 415px){ .nav-box{
-    display:inline-block;
+    display:block;
+    position: absolute;
+    right:0;
 }}
 
 .nav-box-one{
