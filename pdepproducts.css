@@ -6,6 +6,10 @@
     padding: 20px;   
 }
 
+.products {
+    z-index: 0;
+}
+
 .produce-section {
     text-align: center;
     font-size:7rem;
