@@ -17,6 +17,52 @@
     position: relative;
 }
 
+.nav-box span{
+    padding-right: 20px;
+    color: white;
+    width: 2rem;
+}
+
+.overlay { 
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1;
+    background-color: #1a6e1a; 
+    overflow-x: hidden; 
+    transition: 0.50s; 
+} 
+
+.overlay-content { 
+    position: relative; 
+    top: 25%; 
+    width: 100%; 
+    text-align: center; 
+} 
+
+.overlay a { 
+    padding: 10px; 
+    text-decoration: none; 
+    font-size: 40px; 
+    color: white; 
+    display: block; 
+    transition: 20.1s; 
+} 
+
+.overlay a:hover, 
+.overlay a:focus { 
+    color: black; 
+} 
+
+.overlay .closebtn { 
+    position: absolute; 
+    top: 10px; 
+    right: 35px; 
+    font-size: 70px; 
+} 
+
 @media(max-width: 415px){ .nav-box{
     display:block;
     position: absolute;

@@ -18,10 +18,29 @@
             <div id="container">
                 <!-- NAV BAR -->
                 <div class="nav">
+                    
                     <div class="nav-box">
-                        <div class="hamburger">
+                        <!-- <div class="hamburger">
                             <img src="hamburger.png" alt="">
-                        </div>
+                        </div> -->
+
+                        <div id="myNav" class="overlay"> 
+                            <a href="javascript:void(0)" 
+                                class="closebtn" onclick="closeNav()"> 
+                                × 
+                            </a> 
+                            <div class="overlay-content"> 
+                                <a href="#sign-up-list">Sign-up</a> 
+                                <a href="#samples">Sample Packs</a> 
+                                <a href="#bio">Bio</a> 
+                                <a href="#contact">Contact</a> 
+                            </div> 
+                        </div> 
+                      
+                        <span style="font-size:35px;cursor:pointer"
+                            onclick="openNav()"> 
+                            ≡ 
+                        </span>
                     </div>
                     <div class="nav-box-one">
                         <div class="mascot">
@@ -219,7 +238,19 @@
                     <!-- FOOTER -->
                     <div class="footer">
                         <p>ProduceDepartment 2020 | Beats,Sample Packs, Production Tutorials, & More</p>
-                    </div>    
+                    </div>   
+                    
+                    <script> 
+                        function openNav() { 
+                            document.getElementById( 
+                                "myNav").style.width = "100%"; 
+                        } 
+                  
+                        function closeNav() { 
+                            document.getElementById( 
+                                "myNav").style.width = "0%"; 
+                        } 
+                    </script>
 
             </div>
 
