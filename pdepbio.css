@@ -98,3 +98,14 @@ display: grid;
 @media(max-width: 505px){.bio-box p{
    font-size: 1em;  
 }}
+
+
+#syncere .overlay{
+    z-index: 4;
+    display: none;
+    
+}
+#syncere img{
+    width: 200px;
+    height: 200px;
+}

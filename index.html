@@ -200,10 +200,24 @@
                         <p class="makers" data-texts="Creatives" >Bio</p>
                         <div class="bios">
                             <div class="bio-box ">
-                                <img class="bio-pic pic-one" src="ProdeuceDepartmentFinalV1.png" alt="">
+                                <img  class="bio-pic pic-one" src="ProdeuceDepartmentFinalV1.png" alt="" onclick="openSBio()" >
                                 <p class="pic-one">Vernon Syncere</p>
-            
                            </div>
+                        
+                            <div id="syncere" class="overlay"> 
+                                <a href="javascript:void(0)" 
+                                    class="closebtn" onclick="closeSBio()"> 
+                                    × 
+                                </a> 
+                                <div class="overlay-content">
+                                    <img src="ProdeuceDepartmentFinalV1.png" alt="">
+                                    <a href="#sign-up-list" >Twitter</a> 
+                                    <a href="#samples" >IG</a> 
+                                    <a href="#bio" >Website</a> 
+                                    <a href="#contact" >Contact</a> 
+                                </div> 
+                            </div>
+                            
                            <div class="bio-box pic-two">
                                <img class="bio-pic" src="ProdeuceDepartmentFinalV1.png" alt="">
                                 <p>Brotha Malcolm</p> 
@@ -252,13 +266,19 @@
                                 "myNav").style.width = "0%"; 
                         } 
 
-                        // function openSBio(){
-                        //     document.getElementById().style.width = "100%"
-                        // }
+                        function openSBio(){
+                            document.getElementById(
+                                "syncere").style.width = "100%"
+                            document.getElementById(
+                                "syncere").style.display = "static"
+                        }
 
-                        // function closeSBio(){
-                        //     document.getElementById().style.width = "0%"
-                        // }
+                        function closeSBio(){
+                            document.getElementById(
+                                "syncere").style.width = "0%"
+                            document.getElementById(
+                                "syncere").style.display = "none"
+                        }
                     </script>
 
             </div>
