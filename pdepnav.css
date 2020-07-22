@@ -17,9 +17,10 @@
     position: relative;
 }
 
-.nav-box span{
+.nav-box p{
     padding-right: 20px;
-    color: white;   
+    color: white; 
+      
 }
 
 .overlay { 
@@ -80,6 +81,8 @@
 
 .hamburger{
     display: none;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 .hamburger img{
