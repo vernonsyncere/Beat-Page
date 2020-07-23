@@ -160,37 +160,93 @@
                           <div class="grey-box">  
                            <div class="product-row top-row">
                                  <div class="kit-box one-box-one">
-                                    <img src="ProdeuceDepartmentFinalV1.png" alt="">
+                                    <img src="ProdeuceDepartmentFinalV1.png" alt="" onclick="openProduct()">
                                     <a> Scatter Brain Vol.1</a>
                                     <a class="center"> (Sample Pack)</a> 
                                     <p class="o-price">$29.99</p>
                                     <p class="d-price">Save 33.34%</p>
                                     <p class="s-price">$19.99</p>
                                 </div>
+
+                                <div id="sample-product" class="overlay-product"> 
+                                    <a href="javascript:void(0)" 
+                                        class="closebtn" onclick="closeProduct()"> 
+                                        × 
+                                    </a> 
+                                    <div class="overlay-content"> 
+                                        <img src="ProdeuceDepartmentFinalV1.png" alt="" >
+                                        <p >Sample Pack</p> 
+                                        <p>Price: 19.99</p> 
+                                        <p>Description:</p>  
+                                    </div> 
+                                </div>
+
                                 <div class="kit-box one-box-one">
-                                    <img src="ProdeuceDepartmentFinalV1.png" alt="">
+                                    <img src="ProdeuceDepartmentFinalV1.png" alt="" onclick="openProduct()">
                                     <a> Scatter Brain Vol.2</a>
                                     <a> (Sample Pack)</a> 
                                     <p class="o-price">$29.99</p>
                                     <p class="d-price">Save 33.34%</p>
                                     <p class="s-price">$19.99</p>
                                 </div>
+
+                                 <div id="sample-product" class="overlay-product"> 
+                                    <a href="javascript:void(0)" 
+                                        class="closebtn" onclick="closeProduct()"> 
+                                        × 
+                                    </a> 
+                                    <div class="overlay-content"> 
+                                        <img src="ProdeuceDepartmentFinalV1.png" alt="" >
+                                        <p >Sample Pack</p> 
+                                        <p>Price: 19.99</p> 
+                                        <p>Description:</p>  
+                                    </div> 
+                                </div>
+
                                 <div class="kit-box one-box-one">
-                                    <img src="ProdeuceDepartmentFinalV1.png" alt="">
+                                    <img src="ProdeuceDepartmentFinalV1.png" alt="" onclick="openProduct()">
                                     <a> Scatter Brain Vol.3</a>
                                     <a> (Sample Pack)</a> 
                                     <p class="o-price">$29.99</p>
                                     <p class="d-price">Save 33.34%</p>
                                     <p class="s-price">$19.99</p>
                                 </div>
+
+                                 <div id="sample-product" class="overlay-product"> 
+                                    <a href="javascript:void(0)" 
+                                        class="closebtn" onclick="closeProduct()"> 
+                                        × 
+                                    </a> 
+                                    <div class="overlay-content"> 
+                                        <img src="ProdeuceDepartmentFinalV1.png" alt="" >
+                                        <p >Sample Pack</p> 
+                                        <p>Price: 19.99</p> 
+                                        <p>Description:</p>  
+                                    </div> 
+                                </div>
+
                                 <div class="kit-box one-box-one">
-                                    <img src="ProdeuceDepartmentFinalV1.png" alt="">
+                                    <img src="ProdeuceDepartmentFinalV1.png" alt="" onclick="openProduct()">
                                     <a> Scatter Brain Vol.4</a>
                                     <a> (Sample Pack)</a>
                                     <p class="o-price">$29.99</p>
                                     <p class="d-price">Save 33.34%</p>
                                     <p class="s-price">$19.99</p> 
                                 </div>
+
+                                 <div id="sample-product" class="overlay-product"> 
+                                    <a href="javascript:void(0)" 
+                                        class="closebtn" onclick="closeProduct()"> 
+                                        × 
+                                    </a> 
+                                    <div class="overlay-content"> 
+                                        <img src="ProdeuceDepartmentFinalV1.png" alt="" >
+                                        <p >Sample Pack</p> 
+                                        <p>Price: 19.99</p> 
+                                        <p>Description:</p>  
+                                    </div> 
+                                </div>
+
                             </div> 
                         </div>      
                     </div>  
@@ -308,6 +364,22 @@
                         function closeBBio(){
                             document.getElementById(
                                 "mal").style.width = "0%"
+                            document.getElementById(
+                                "nav").style.display = "grid"    
+                        }
+
+                        function openProduct(){
+                            document.getElementById(
+                                "sample-product").style.width = "100%"
+                            document.getElementById(
+                                "sample-product").style.display = "static"
+                            document.getElementById(
+                                "nav").style.display = "none"
+                        }
+
+                        function closeProduct(){
+                            document.getElementById(
+                                "sample-product").style.width = "0%"
                             document.getElementById(
                                 "nav").style.display = "grid"    
                         }

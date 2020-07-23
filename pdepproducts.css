@@ -107,4 +107,52 @@
     margin-left: -10px;
 }
 
+#sample-product {
+    /* display:none; */
+}
 
+
+#sample-product img {
+width: 154px;
+height: 154px;
+}
+
+.overlay-product { 
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1;
+    background-color: #1a6e1a; 
+    overflow-x: hidden;
+    transition: 0.01s; 
+} 
+
+.overlay-content { 
+    position: relative; 
+    top: 30%; 
+    width: 100%; 
+    text-align: center; 
+} 
+
+.overlay-product p { 
+    padding: 10px; 
+    text-decoration: none; 
+    font-size: 40px; 
+    color: white; 
+    display: block; 
+    transition: 5.1s; 
+} 
+
+.overlay-content a:hover, 
+.overlay-content a:focus { 
+    color: black; 
+} 
+
+.overlay-product .closebtn { 
+    position: absolute; 
+    top: 10px; 
+    right: 35px; 
+    font-size: 70px; 
+} 
