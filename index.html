@@ -204,24 +204,38 @@
                                 <p class="pic-one">Vernon Syncere</p>
                            </div>
                         
-                            <div id="syncere" class="overlay"> 
+                            <div id="syncere" class="overlay-bio"> 
                                 <a href="javascript:void(0)" 
                                     class="closebtn" onclick="closeSBio()"> 
                                     × 
                                 </a> 
                                 <div class="overlay-content">
-                                    <img src="ProdeuceDepartmentFinalV1.png" alt="">
+                                    <img src="ProdeuceDepartmentFinalV1.png" alt="" >
                                     <a href="#sign-up-list" >Twitter</a> 
                                     <a href="#samples" >IG</a> 
                                     <a href="#bio" >Website</a> 
-                                    <a href="#contact" >Contact</a> 
+                                    <iframe class="player" src="https://player.beatstars.com/?storeId=112773"  style="max-width:1024px;"> -- none -- </iframe> 
                                 </div> 
                             </div>
                             
                            <div class="bio-box pic-two">
-                               <img class="bio-pic" src="ProdeuceDepartmentFinalV1.png" alt="">
+                               <img class="bio-pic" src="ProdeuceDepartmentFinalV1.png" alt="" onclick="openBBio()">
                                 <p>Brotha Malcolm</p> 
                            </div>
+
+                           <div id="mal" class="overlay-bio"> 
+                            <a href="javascript:void(0)" 
+                                class="closebtn" onclick="closeBBio()"> 
+                                × 
+                            </a> 
+                            <div class="overlay-content">
+                                <img src="ProdeuceDepartmentFinalV1.png" alt="">
+                                <a href="#sign-up-list" >Twitter</a> 
+                                <a href="#samples" >FB</a> 
+                                <a href="#bio" >Website</a> 
+                                <a href="#contact" >Contact</a> 
+                            </div> 
+                        </div>
                            
                         </div>
                     </div>     
@@ -271,13 +285,31 @@
                                 "syncere").style.width = "100%"
                             document.getElementById(
                                 "syncere").style.display = "static"
+                            document.getElementById(
+                                "nav").style.display = "none"
                         }
 
                         function closeSBio(){
                             document.getElementById(
                                 "syncere").style.width = "0%"
                             document.getElementById(
-                                "syncere").style.display = "none"
+                                "nav").style.display = "grid"
+                        }
+
+                        function openBBio(){
+                            document.getElementById(
+                                "mal").style.width = "100%"
+                            document.getElementById(
+                                "mal").style.display = "static"
+                            document.getElementById(
+                                "nav").style.display = "none"
+                        }
+
+                        function closeBBio(){
+                            document.getElementById(
+                                "mal").style.width = "0%"
+                            document.getElementById(
+                                "nav").style.display = "grid"    
                         }
                     </script>
 

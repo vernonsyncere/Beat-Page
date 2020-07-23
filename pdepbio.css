@@ -101,11 +101,65 @@ display: grid;
 
 
 #syncere .overlay{
-    z-index: 4;
+    z-index: 10;
     display: none;
     
 }
 #syncere img{
     width: 200px;
     height: 200px;
+}
+
+#mal .overlay{
+    z-index: 10;
+    display: none;
+    
+}
+#mal img{
+    width: 200px;
+    height: 200px;
+}
+
+.overlay-bio { 
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1;
+    background-color: rgba(26, 110, 26, .95); 
+    overflow-x: hidden;
+    transition: 0.01s; 
+} 
+
+.overlay-content { 
+    position: relative; 
+    top: 10%; 
+    width: 100%; 
+    text-align: center; 
+} 
+
+.overlay-bio a { 
+    padding: 10px; 
+    text-decoration: none; 
+    font-size: 40px; 
+    color: white; 
+    display: block; 
+    transition: 5.1s; 
+} 
+
+.overlay-content a:hover, 
+.overlay-content a:focus { 
+    color: black; 
+} 
+
+.overlay-bio .closebtn { 
+    position: absolute; 
+    top: 10px; 
+    right: 35px; 
+    font-size: 70px; 
+} 
+
+.player {
+    height: 500px;
 }
